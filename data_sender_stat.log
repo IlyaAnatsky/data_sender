@@ -1,0 +1,14 @@
+Data sender statistics (2022-06-14T16:48:09):
+Sent total number of packages: 2000
+
+Configuration:
+local_ip: 192.168.0.18
+local_port: 50001
+remote_ip: 192.168.0.17
+remote_port: 50002
+total_number_packages: 2000
+do_delay_after_aliquot: 1000
+delay_after_aliquot_ms: 10
+sent_delay: 10
+write_file: 1
+write_hex: 1
