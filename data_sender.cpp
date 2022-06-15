@@ -2,7 +2,6 @@
 // This is data sender application
 
 #include <boost/filesystem.hpp>
-#include <boost/asio.hpp>
 #include <iostream>
 #include "msg_buffer.h"
 
@@ -83,7 +82,6 @@ int main()
             std::this_thread::sleep_for(std::chrono::milliseconds(configval.delay_after_aliquot_ms));
         }
     }
-
     sock.close();
     
     boost::posix_time::ptime now_stat = boost::posix_time::second_clock::local_time();
