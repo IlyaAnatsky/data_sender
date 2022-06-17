@@ -112,7 +112,7 @@ namespace DataSender
             return (void*) bufferMsg;
         }
 
-        auto getSentDataLength()
+        short getSentDataLength()
         {
             return dataSize + header_len;
         }

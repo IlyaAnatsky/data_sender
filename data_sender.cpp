@@ -63,7 +63,7 @@ int main()
     for (int indexMsg = 1; indexMsg <= configval.total_number_packages; ++indexMsg)
     {
         void *buffer_p = msgBufferObj.getNewData();
-        auto bufferLength = msgBufferObj.getSentDataLength();
+        short bufferLength = msgBufferObj.getSentDataLength();
 
         sock.send_to(buffer(buffer_p, bufferLength), remote_ep);
 
