@@ -1,5 +1,6 @@
 
-CXX=/usr/bin/g++-7
+
+CXX=/usr/bin/g++-11
 
 CFLAGS = -c -std=c++11
 LFLAGS = -o

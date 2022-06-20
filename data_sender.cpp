@@ -3,6 +3,7 @@
 
 #include <boost/filesystem.hpp>
 #include <iostream>
+#include <thread>
 #include "msg_buffer.h"
 
 struct SSenderStatistics 
